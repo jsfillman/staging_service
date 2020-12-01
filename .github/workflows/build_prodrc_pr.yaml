@@ -4,6 +4,7 @@ name: Build Prod RC Image
   pull_request:
     branches:
     - master
+    - main
     types:
     - opened
     - synchronize
